@@ -4,7 +4,7 @@ class ComponentAdvertising extends HTMLElement {
         
     }
     #Render(Product){
-        this.innerHTML = ``
+        this.innerHTML = ` `
     }
     connectedCallback() {
         fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')

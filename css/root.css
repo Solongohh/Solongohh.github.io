@@ -5,13 +5,13 @@
     --footer_background:#f5f5f7 ;
     --body_background_color:rgb(246, 247, 249);
     --text_color: black;
-    --console_img_width: 14vw;
-    --console_img_height: 14vw;
+    --console_img_width: 100%;
+    --console_img_height: 100%;
     --purple: #8A00FC;
     --main_font: Play;
     --price_size:0.8em;
     --opacity:0.5;
-    --index_height:600px;
+    --index_height:50vw;
     --similarPro_back:black;
     --theme:"simple";
     /* --body_background_color_dark:#25272d;

@@ -159,17 +159,6 @@ input[name="r"]{
     margin-left: -40%;
 }
 @media screen and (max-width: 600px) {
-    header{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .middle{
-        display: none;
-    }
-    .fa-user{
-        display: none;
-    }
     comscope-header{
         display: none;
     }
@@ -180,7 +169,7 @@ input[name="r"]{
         display: inline;
     }
     #games_list{
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: 40% 40%;
         justify-content: center;
     }
     #accessories_list{

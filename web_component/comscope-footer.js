@@ -105,7 +105,7 @@ class ComscopeFooter extends HTMLElement {
         <hr>
         <nav>
             <p>2023 © Зохиогчийн эрхийн хуулиар хамгаалагдав.</p>
-            <p>Хөгжүүлсэн SET</p>
+            <p>Хөгжүүлсэн S</p>
         </nav>
         </footer>
         `

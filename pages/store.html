@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="store playstation console xbox accessories games ">
+    <title>store</title>
+    <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="/Buy section/css for buy section/main.css">
+    <link rel="stylesheet" href="../css/store.css">
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4d9b41b2cf.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../img/logo.png" type="image/x-icon">
+    <script src="../js/store.js"></script>
+    <script type="module" src="../web_component/comscope-header.js"></script>
+    <script type="module" src="../web_component/comscope-footer.js"></script>
+    <script type="module" src="../web_component/ps-one_product.js"></script>
+    <script type="module" src="../web_component/ps-local.js"></script>
+        <script type="module" src="../web_component/sags.js"></script>
+</head>
+<body>
+    <header>
+        <comscope-header color="var(--theme)"></comscope-header>
+    </header>
+    <main>
+        <div class="slidershow middle1">
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <div class="slide s1"><img src="../img/storeCover.jpg" alt=""></div>
+                <div class="slide"><img src="../img/storeCover2.webp" alt=""></div>
+                <div class="slide"><img src="../img/storeCover.png" alt=""></div>
+            </div>
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+            </div>
+        </div>
+        <nav class="content">
+            <ul>
+                <li class="seemore">
+                    <h3>CONSOLE</h3>
+                    <a href="console.html">SEE MORE></a>
+                </li>
+                <li id="consoles_list">
+                    
+                </li>
+            </ul>
+            <ul>
+                <li class="seemore">
+                    <h3>ACCESSORIES</h3>
+                    <a href="accessories.html">SEE MORE></a>
+                </li>
+                <li id="accessories_list"></li>
+            </ul>
+            <ul>
+                <li class="seemore">
+                    <h3>GAMES</h3>
+                    <a href="games.html">SEE MORE></a>
+                </li>
+                <li id="games_list"></li>
+            </ul>
+        </nav>
+        <ps-local></ps-local>
+    </main>
+    <footer>
+        <comscope-footer></comscope-footer>
+    </footer>
+</body>
+</html>

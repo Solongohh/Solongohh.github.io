@@ -20,7 +20,7 @@ main{
 }
 .eachProd{
     width: 100%;
-    height: 40vh;
+    height: 30vw;
     display: flex;
     align-items: flex-end;
     transition: transform .5s;
@@ -46,8 +46,8 @@ main{
     /* margin: 1%; */
 }
 #consoles_list img{
-    width: var(--console_img_width);
-    height: var(--console_img_height);
+    /* width: var(--console_img_width);
+    height: var(--console_img_height); */
 }
 #accessories_list{
     width: 80%;
@@ -58,8 +58,8 @@ main{
     justify-content: center;
 }
 #accessories_list img{
-    width: var(--console_img_width);
-    height: var(--console_img_height);
+    /* width: var(--console_img_width);
+    height: var(--console_img_height); */
 }
 #games_list{
     width: 80%;
@@ -70,8 +70,8 @@ main{
     justify-content: center;
 }
 #games_list img{
-    width: var(--console_img_width);
-    height: var(--console_img_height);
+    /* width: var(--console_img_width);
+    height: var(--console_img_height); */
 }
 .seemore{
     display: flex;
@@ -159,6 +159,9 @@ input[name="r"]{
     margin-left: -40%;
 }
 @media screen and (max-width: 992px) {
+    .eachProd{
+        height: 40vw;
+    }
     #games_list{
         grid-template-columns: 30% 30% 30%;
         justify-content: center;
@@ -182,12 +185,21 @@ input[name="r"]{
     #consoles_list{
         grid-template-columns: 100%;
     }
+    .eachProd{
+        height: 30vw;
+    }
     .eachProd nav{
         display: flex;
         flex-direction: row;
     }
     .eachProd img{
-        width: 10vw;
+        width: 20vw;
+    }
+    .eachProd .name{
+        width: 20vw;
+    }
+    .eachProd .price{
+        width: 15vw;
     }
     #one{
         width: 30vw;

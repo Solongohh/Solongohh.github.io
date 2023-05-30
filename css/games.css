@@ -55,6 +55,15 @@
         flex-direction: row;
     }
     .eachProd img{
-        width: 10vw;
+        width: 20vw;
+    }
+    .eachProd .name{
+        width: 25vw;
+    }
+    .eachProd .price{
+        width: 20vw;
+    }
+    #one{
+        width: 20vw;
     }
 }

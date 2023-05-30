@@ -8,7 +8,6 @@ class PsOneProduct extends HTMLElement {
         this.type = this.getAttribute("type");
         //implementation
         this.innerHTML = `
-        
         <article class="eachProd">
             <nav>
                 <li><img src="${image}" alt="Product image"></li>

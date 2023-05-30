@@ -8,6 +8,7 @@ class PsOneProduct extends HTMLElement {
         this.type = this.getAttribute("type");
         //implementation
         this.innerHTML = `
+        
         <article class="eachProd">
             <nav>
                 <li><img src="${image}" alt="Product image"></li>
@@ -25,7 +26,7 @@ class PsOneProduct extends HTMLElement {
     }
 
     connectedCallback() {
-        const url = 'http://127.0.0.1:5501/pages/product.html?';
+        const url = 'http://127.0.0.1:5500/pages/product.html?';
         const searchParams = new URLSearchParams(this.id);
         searchParams.append('id',JSON.stringify(this.id));
         const searchParams2 = new URLSearchParams(this.type);

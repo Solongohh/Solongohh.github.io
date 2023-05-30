@@ -45,7 +45,6 @@ fetch('http://localhost:4000/api')
             else if(dy.type == 'games')
                 games.push(dy)
             const gameList = games.map(i=>new GetAllPro(i)).map(i=>i.Render()).join('');
-            console.log(gameList);
             
             const accessoryList = accessories.map(i=>new GetAllPro(i)).map(i=>i.Render()).join(''); 
             if(document.getElementById("games")!=null){

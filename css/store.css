@@ -158,18 +158,9 @@ input[name="r"]{
 #r3:checked~ .s1{
     margin-left: -40%;
 }
-@media screen and (max-width: 600px) {
-    comscope-header{
-        display: none;
-    }
-    comscope-footer{
-        display: none;
-    }
-    mobile-header{
-        display: inline;
-    }
+@media screen and (max-width: 992px) {
     #games_list{
-        grid-template-columns: 40% 40%;
+        grid-template-columns: 30% 30% 30%;
         justify-content: center;
     }
     #accessories_list{
@@ -179,5 +170,26 @@ input[name="r"]{
     #consoles_list{
         grid-template-columns: 30% 30% 30%;
         justify-content: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    #games_list{
+        grid-template-columns: 100%;
+    }
+    #accessories_list{
+        grid-template-columns: 100%;
+    }
+    #consoles_list{
+        grid-template-columns: 100%;
+    }
+    .eachProd nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .eachProd img{
+        width: 10vw;
+    }
+    #one{
+        width: 30vw;
     }
 }

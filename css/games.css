@@ -40,3 +40,21 @@
         grid-template-columns: 30% 30% 30%;
     }
 }
+@media screen and (max-width: 600px){
+    #accessories{
+        grid-template-columns: 100%;
+    }
+    #games{
+        grid-template-columns: 100%;
+    }
+    .eachProd{
+        margin-top: 5vw;
+    }
+    .eachProd nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .eachProd img{
+        width: 10vw;
+    }
+}

@@ -9,7 +9,7 @@ class MobileHeader extends HTMLElement {
         <style>
         @import url('../css/root.css');
         .mobileHeader{
-            width: 100%;
+            width: 50vw;
             display: flex;
             justify-content: space-around;
             align-items:center;
